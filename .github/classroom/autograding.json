@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "testStrukturierteProgrammierung",
+      "setup": "",
+      "run": "gradle test --tests TestHelloWorld.testStrukturierteProgrammierung",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testNotFirstName",
+      "setup": "",
+      "run": "gradle test --tests TestHelloWorld.testNotFirstName",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testNotBrackets",
+      "setup": "",
+      "run": "gradle test --tests TestHelloWorld.testNotBrackets",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
